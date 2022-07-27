@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git + git@github.com:Simon-He95/s-charts.git"
+    "url": "git + git@github.com:Simon-He95/sCharts.git"
   },
   "bugs": {
-    "url": "https://github.com/Simon-He95/s-charts/issues"
+    "url": "https://github.com/Simon-He95/sCharts/issues"
   },
   "keywords": [
     "s-charts",
