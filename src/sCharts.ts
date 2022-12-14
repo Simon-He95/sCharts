@@ -1,5 +1,5 @@
 import * as echarts from 'echarts'
-import { addEventListener, isStr } from 'simon-js-tool'
+import { isStr, useEventListener } from 'lazy-js-utils'
 
 interface SChartsOption extends Record<string, any> {
   theme?: string | object
@@ -35,7 +35,7 @@ export function sCharts(container: HTMLElement | string, options: SChartsOption,
   if (autoResize)
     resize()
   if (autoResize)
-    addEventListener(window, 'resize', resize, false)
+    useEventListener(window, 'resize', resize, false)
   function resize() {
     const { offsetWidth, offsetHeight } = container as HTMLElement
     charts.resize({
