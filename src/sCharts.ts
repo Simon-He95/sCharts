@@ -9,7 +9,6 @@ interface SChartsOption extends Record<string, any> {
   yAxis?: Record<string, any>
   w?: number
   h?: number
-
 }
 
 export function sCharts(container: HTMLElement | string, options: SChartsOption, autoResize = true): echarts.ECharts {
